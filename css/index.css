@@ -1,0 +1,110 @@
+@import url("https://fonts.googleapis.com/css?family=Fira+Sans:400,700,900|Noto+Sans+TC:400,700&display=swap");
+html, body.container {
+  font-family: 'Noto Sans TC', 'Fira Sans', sans-serif;
+
+}
+
+nav {
+  padding: 10vh 0;
+}
+
+#intro {
+  width: 100%;
+  padding: 10vh 0 10vh 15vw;
+  position: fixed;
+  z-index: -1;
+}
+#intro h1{
+  font-weight: 900
+}
+
+#skills {
+  padding: 50px 100px;
+  background-color: #f9f9f9;
+  margin-top: 60vh;
+}
+
+#portfolio {
+  padding: 20px;
+  display: grid;
+  grid-gap: 20px;
+  grid-template-columns: repeat(3, 2fr)
+}
+
+.view {
+  height: 400px;
+  float: left;
+  overflow: hidden;
+  position: relative;
+  text-align: center;
+  border-radius: 10px;
+  border:1px solid #bbb;
+  box-shadow:rgba(0,0,0,0.8) 0px 5px 15px, inset rgba(0,0,0,0.15) 0px -10px 20px;
+}
+
+.view img {
+  transition: all 0.2s linear;
+}
+
+.view .mask {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: center;
+  height: 100%;
+  position: absolute;
+  overflow: hidden;
+  top: 0;
+  left: 0;
+  opacity: 0;
+  background-color: rgba(94, 90, 84, 0.7);
+  transition: all 0.4s ease-in-out;
+}
+
+.view h2 {
+  transform: translateY(-100px);
+  opacity: 0;
+  transition: all 0.2s ease-in-out;
+}
+
+.view p {
+  transform: translateY(100px);
+  transition: all 0.2s linear;
+}
+
+.view a.info {
+  opacity: 0;
+  padding: 10px;
+  transition: all 0.2s ease-in-out;
+  font-size: 1.5rem;
+  text-decoration: none;
+}
+
+.view:hover img {
+  transform: scale(1.1, 1.1);
+}
+
+.view:hover .mask {
+  opacity: 1;
+}
+
+.view:hover h2, .view:hover p, .view:hover a.info {
+  opacity: 1;
+  transform: translateY(0px);
+}
+
+.view:hover p {
+  transition-delay: 0.1s;
+}
+
+.view:hover a.info {
+  transition-delay: 0.3s;
+}
+
+footer {
+  height: 100px;
+  /* display: flex; */
+  text-align: center;
+  padding: 30px
+  /* justify-content: center; */
+}
