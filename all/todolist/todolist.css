@@ -1,0 +1,101 @@
+body {
+  font-family: 'Roboto', sans-serif;
+  height: 100vh;
+  margin: 0;
+  
+  background: 
+  linear-gradient(45deg, hsla(340,80%, 50%, 1) 10%, hsla(0, 0%, 0%, 0) 50%), 
+  linear-gradient(135deg, hsla(225, 80%, 50%, 1) 10%, hsla(0, 0%, 0%, 0) 50%), 
+  linear-gradient(225deg, hsla(140, 80%, 50%, 1) 10%, hsla(0, 0%, 0%, 0) 50%), 
+  linear-gradient(315deg, hsla(35, 80%, 50%, 1) 10%, hsla(0, 0%, 0%, 0) 50%);
+}
+#gradient{
+  text-align: center;
+}
+#gradient h1{
+  margin: 0;
+  padding: 50px 0
+}
+.btn, .auto {
+  margin-top: 20px;
+  width: 120px;
+  height: 50px;
+  border: none;
+  border-radius: 10px;
+  background-color: #2277ff;
+  box-shadow: 0px 5px 5px #333;
+}
+
+#container h1 {
+  background-color: #2277ff;
+  color: #fff;
+  margin: 0;
+  padding: 10px 20px;
+  font-size: 24px;
+  text-transform: uppercase;
+  font: normal;
+}
+
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  background-color: #fff;
+  height: 40px;
+  line-height: 40px;
+  color: #666;
+}
+
+li:nth-child(even) {
+  background-color: #f7f7f7;
+}
+
+#container input {
+  font-size: 18px;
+  background-color: #f7f7f7;
+  width: 100%;
+  padding: 13px 13px 13px 20px;
+  box-sizing: border-box;
+  color: #2980b9;
+  border: 0;
+}
+
+span {
+  color: white;
+  background-color: #e74c3c;
+  margin-right: 20px;
+  text-align: center;
+  height: 40px;
+  width: 0px;
+  display: inline-block;
+  transition: 0.2s linear;
+  opacity: 0;
+}
+
+#container input:focus {
+  background-color: #fff;
+  border: 2px solid #2980b9;
+}
+
+#container {
+  width: 360px;
+  margin: 0 auto;
+  padding-top: 100px;
+}
+
+.completed {
+  color: gray;
+  text-decoration: line-through;
+}
+
+.fa-plus {
+  float: right;
+}
+
+li:hover span {
+  width: 40px;
+  opacity: 1
+}
