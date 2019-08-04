@@ -28,10 +28,30 @@ nav {
   padding: 20px;
   display: grid;
   grid-gap: 20px;
-  grid-template-columns: repeat(2, 2fr)
+  grid-template-columns: repeat(2,2fr)
+}
+.f{
+  background-image: url("/cover/Webpage.jpg")
+}
+.b{
+  background-image: url("/cover/Tictactoe.jpg")
+}
+.c{
+  background-image: url("/cover/TodoList.jpg")
+}
+.d{
+  background-image: url("/cover/ColorTraining.jpg")
+}
+.e{
+  background-image: url("/cover/KeyboardMusic.jpg")
+}
+.g{
+  background-image: url("/cover/pomodoro.jpg")
 }
 
 .view {
+  background-position: center;
+  background-size: cover;
   height: 400px;
   float: left;
   overflow: hidden;
