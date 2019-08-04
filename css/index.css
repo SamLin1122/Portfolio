@@ -1,7 +1,6 @@
 @import url("https://fonts.googleapis.com/css?family=Fira+Sans:400,700,900|Noto+Sans+TC:400,700&display=swap");
 html, body.container {
   font-family: 'Noto Sans TC', 'Fira Sans', sans-serif;
-
 }
 
 nav {
@@ -14,7 +13,8 @@ nav {
   position: fixed;
   z-index: -1;
 }
-#intro h1{
+
+#intro h1 {
   font-weight: 900
 }
 
@@ -28,7 +28,7 @@ nav {
   padding: 20px;
   display: grid;
   grid-gap: 20px;
-  grid-template-columns: repeat(3, 2fr)
+  grid-template-columns: repeat(2, 2fr)
 }
 
 .view {
@@ -38,12 +38,15 @@ nav {
   position: relative;
   text-align: center;
   border-radius: 10px;
-  border:1px solid #bbb;
-  box-shadow:rgba(0,0,0,0.8) 0px 5px 15px, inset rgba(0,0,0,0.15) 0px -10px 20px;
+  border: 1px solid #bbb;
+  box-shadow: rgba(0, 0, 0, 0.8) 0px 5px 15px, inset rgba(0, 0, 0, 0.15) 0px -10px 20px;
 }
 
 .view img {
   transition: all 0.2s linear;
+  height: 100%;
+  position: relative;
+  left: -125px;
 }
 
 .view .mask {
