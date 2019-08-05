@@ -124,27 +124,27 @@ nav {
 }
 
 .f {
-  background-image: url("/cover/Webpage.jpg")
+  background-image: url("./cover/Webpage.jpg")
 }
 
 .b {
-  background-image: url("/cover/Tictactoe.jpg")
+  background-image: url("./cover/Tictactoe.jpg")
 }
 
 .c {
-  background-image: url("/cover/TodoList.jpg")
+  background-image: url("./cover/TodoList.jpg")
 }
 
 .d {
-  background-image: url("/cover/ColorTraining.jpg")
+  background-image: url("./cover/ColorTraining.jpg")
 }
 
 .e {
-  background-image: url("/cover/KeyboardMusic.jpg")
+  background-image: url("./cover/KeyboardMusic.jpg")
 }
 
 .g {
-  background-image: url("/cover/pomodoro.jpg")
+  background-image: url("./cover/pomodoro.jpg")
 }
 
 .view {
