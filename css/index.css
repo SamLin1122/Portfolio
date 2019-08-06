@@ -30,6 +30,12 @@ html, body.container {
   }
 }
 
+@media (max-width:515px) {
+  section#skills {
+    height: 70vh;
+  }
+}
+
 nav {
   height: 30vh;
   padding: 10vh 0;
@@ -67,19 +73,24 @@ nav {
   padding: 0;
   transition: all 0.3s cubic-bezier(0.645, 0.045, 0.355, 1);
 }
+
 #skills i:hover {
-  transform: scale(1.2,1.2)
+  transform: scale(1.2, 1.2)
 }
+
 #skills span:hover {
   transition-delay: 0.6s;
-  transform: scale(1.2,1.2)
+  transform: scale(1.2, 1.2)
 }
-#skills img{
+
+#skills img {
   transition: all 0.3s cubic-bezier(0.645, 0.045, 0.355, 1);
 }
-#skills img:hover{
-  transform: scale(1.2,1.2)
+
+#skills img:hover {
+  transform: scale(1.2, 1.2)
 }
+
 #skills span {
   display: block;
   margin-top: 10px;
@@ -101,15 +112,18 @@ nav {
   z-index: -2;
 }
 
-#skills .skpro{
+#skills .skpro {
   height: 5vh;
 }
-.HTML5{
+
+.HTML5 {
   width: 95%;
 }
-.CSS3{
+
+.CSS3 {
   width: 95%;
 }
+
 #portfolio {
   padding: 0 20px;
   display: grid;
@@ -124,27 +138,27 @@ nav {
 }
 
 .f {
-  background-image: url("./cover/Webpage.jpg")
+  background-image: url("../cover/Webpage.jpg")
 }
 
 .b {
-  background-image: url("./cover/Tictactoe.jpg")
+  background-image: url("../cover/Tictactoe.jpg")
 }
 
 .c {
-  background-image: url("./cover/TodoList.jpg")
+  background-image: url("../cover/TodoList.jpg")
 }
 
 .d {
-  background-image: url("./cover/ColorTraining.jpg")
+  background-image: url("../cover/ColorTraining.jpg")
 }
 
 .e {
-  background-image: url("./cover/KeyboardMusic.jpg")
+  background-image: url("../cover/KeyboardMusic.jpg")
 }
 
 .g {
-  background-image: url("./cover/pomodoro.jpg")
+  background-image: url("../cover/pomodoro.jpg")
 }
 
 .view {
@@ -200,7 +214,6 @@ nav {
 .view p {
   transform: translateY(100px);
   transition: all 0.2s linear;
-
 }
 
 .view a.info {
@@ -230,10 +243,11 @@ nav {
   transition-delay: 0.3s;
 }
 
-#contact{
+#contact {
   padding-top: 50px;
   text-align: center
 }
+
 #contact i {
   font-size: 4rem;
   color: #9f9f9f;
